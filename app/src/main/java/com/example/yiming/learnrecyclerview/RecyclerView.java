@@ -4148,6 +4148,10 @@ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScro
 
   }
 
+  /**
+   *  ================ END OF VIEW FLINGER ===============
+   */
+
   private void repositionShadowingViews() {
     // Fix up shadow views used by change animations
     int count = mChildHelper.getChildCount();
